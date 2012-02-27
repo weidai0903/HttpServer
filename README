@@ -1,0 +1,21 @@
+CIS555 HW1 MS2
+Wei Dai
+seas login name: weidai
+
+1.Features:
+All of the non-deprecated methods in the interfaces(HttpServletRequest,HttpServletResponse,ServletConfig,ServletContext,HttpSession) are implemented.
+Servlet container is implemented.
+Two special URLs. /shutdown and /control. GET /shutdown will destroy all the servlets and terminate the server immediately. GET /control will display a web page, which contains my name, all threads and the status of each thread, and a link to /shutdown .
+Based on Milestone one, Servlets can be well loaded and run. GET,POST methods are satified. Sessions and cookies are achieved.
+A link to the Error Log can be seen at the top of the control panel.
+
+
+2.Extra Credit:
+None
+
+3.Source Files:
+HttpServer.java, Request.java, Response.java, ThreadPool.java, Worker.java,Config.java, Session.java, ConfigTest.java, SessionTest.java, ServletContainer.java,ServletRequest.java, ServletResponse.java,  Context, ContextTest.java,ServletRequestTest.java, ServletResponseTest.java
+
+4.Building and Running:
+To build: 555-build hw1ms1
+To run: as regular
